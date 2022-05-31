@@ -42,10 +42,14 @@ body {
 }
 ul {
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: 0;
 =======
   margin:0;
 >>>>>>> 99d4e22 (feat: changes)
+=======
+  margin: 0;
+>>>>>>> af13099 (feat: quotes html/css)
   padding: 0px;
 }
 li, h3 {
@@ -55,8 +59,12 @@ li, h3 {
 input, button {
 =======
 input,  button {
+<<<<<<< HEAD
 >>>>>>> 99d4e22 (feat: changes)
   outline:none;
+=======
+  outline: none;
+>>>>>>> af13099 (feat: quotes html/css)
 }
 button {
   background: none;
@@ -73,11 +81,15 @@ button:hover {
 
 /* Heading */
 <<<<<<< HEAD
+<<<<<<< HEAD
 h3,
 label[for='new-task'] {
 =======
 h3, label[for='new-task'] {
 >>>>>>> 99d4e22 (feat: changes)
+=======
+h3, label[for="new-task"] {
+>>>>>>> af13099 (feat: quotes html/css)
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -103,7 +115,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for='new-task'] {
+label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
@@ -151,6 +163,7 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
+<<<<<<< HEAD
 ul li input[type=text] {
 <<<<<<< HEAD
   display:none;
@@ -162,12 +175,20 @@ ul li.editMode input[type=text] {
 ul li.editMode label {
 =======
   display:none
+=======
+ul li input[type="text"] {
+  display: none
+>>>>>>> af13099 (feat: quotes html/css)
 }
-ul li .edit-mode input[type=text] {
-  display:inline-block;
+ul li .edit-mode input[type="text"] {
+  display: inline-block;
   width:224px;
 }
 ul li .edit-mode label {
+<<<<<<< HEAD
 >>>>>>> 99d4e22 (feat: changes)
   display:none;
+=======
+  display: none;
+>>>>>>> af13099 (feat: quotes html/css)
 }
