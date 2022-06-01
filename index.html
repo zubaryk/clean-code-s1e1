@@ -15,7 +15,7 @@
 >>>>>>> 99d4e22 (feat: changes)
   <body>
     <div class="aaa">
-      <img src="./eisenhower-matrix.jpg">
+      <img class="image" src="./eisenhower-matrix.jpg">
       <a class="more-inf" 
           href="https://goal-life.com/page/method/matrix-eisenhower">
           Want more details?
@@ -30,13 +30,18 @@
 >>>>>>> 99d4e22 (feat: changes)
 =======
       <p id="top-section-for-adding-element-to-list">
+<<<<<<< HEAD
 >>>>>>> af13099 (feat: quotes html/css)
         <label for="new-task">Add Item</label>
+=======
+        <label class="subject" for="new-task">Add Item</label>
+>>>>>>> 44af1ac (feat: tag selectors)
         <div class="task-row-wrapper">
-          <input id="new-task" class="task" type="text">
+          <input id="new-task" class="task content" type="text">
           <button>Add</button>
         </div>
       </p>
+<<<<<<< HEAD
       <h3>Todo</h3>
 <<<<<<< HEAD
       <ul id='incompleteTasks'>
@@ -56,31 +61,45 @@
           <input type="checkbox">
           <label class="task">Pay Bills</label>
           <input type="text" class="task">
+=======
+      <h3 class="title">Todo</h3>
+      <ul class="list" id="incomplete-tasks">
+        <li class="item">
+          <input type="checkbox" class="content">
+          <label class="task subject">Pay Bills</label>
+          <input type="text" class="task content">
+>>>>>>> 44af1ac (feat: tag selectors)
           <button class="edit">Edit</button>
           <button class="delete">
-            <img src="./remove.svg">
+            <img class="image" src="./remove.svg">
           </button>
         </li>
         <li class="edit-mode">
+<<<<<<< HEAD
 >>>>>>> 99d4e22 (feat: changes)
           <input type="checkbox">
           <label class="task">Go Shopping</label>
           <input type="text" value="Go Shopping" class="task">
+=======
+          <input type="checkbox" class="content">
+          <label class="task subject">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="task content">
+>>>>>>> 44af1ac (feat: tag selectors)
           <button class="edit">Save</button>
           <button class="delete">
-            <img src="./remove.svg">
+            <img class="image" src="./remove.svg">
           </button>
         </li>
       </ul>
-      <h3>Completed</h3>
-      <ul id="completed-tasks">
-        <li>
-          <input type="checkbox" checked>
-          <label class="task">See the Doctor</label>
-          <input type="text" class="task">
+      <h3 class="title">Completed</h3>
+      <ul class="list-completed list" id="completed-tasks">
+        <li class="item">
+          <input type="checkbox" checked class="content">
+          <label class="task subject">See the Doctor</label>
+          <input type="text" class="task content">
           <button class="edit">Edit</button>
           <button class="delete">
-            <img src="./remove.svg">
+            <img class="image" src="./remove.svg">
           </button>
         </li>
       </ul>
