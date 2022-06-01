@@ -113,7 +113,7 @@ li > .subject {
   width: 226px;
 }
 li > .content[type="text"] {
-  width: 226px
+  width: 226px;
 }
 button.delete img {
   height: 2em;
@@ -135,7 +135,7 @@ button.delete img:hover {
 
 /* Edit Task */
 .list li input[type="text"] {
-  display: none
+  display: none;
 }
 .list li.edit-mode input[type="text"] {
   display: inline-block;
