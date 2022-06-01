@@ -30,7 +30,7 @@ body {
     text-align: center;
 >>>>>>> 99d4e22 (feat: changes)
   }
-  
+
 }
 .centered-main-page-element {
   display: block;
@@ -202,7 +202,7 @@ ul li input[type="text"] {
 }
 .list li.edit-mode input[type="text"] {
   display: inline-block;
-  width:224px;
+  width: 224px;
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
