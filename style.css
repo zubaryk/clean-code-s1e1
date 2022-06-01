@@ -13,7 +13,7 @@ body {
 .aaa img {
   width: 100%;
 }
-.aaa .more_inf {
+.aaa .more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -180,15 +180,19 @@ ul li input[type="text"] {
   display: none
 >>>>>>> af13099 (feat: quotes html/css)
 }
-ul li .edit-mode input[type="text"] {
+ul li.edit-mode input[type="text"] {
   display: inline-block;
   width:224px;
 }
+<<<<<<< HEAD
 ul li .edit-mode label {
 <<<<<<< HEAD
 >>>>>>> 99d4e22 (feat: changes)
   display:none;
 =======
+=======
+ul li.edit-mode label {
+>>>>>>> 21539f9 (feat: line-wrapping)
   display: none;
 >>>>>>> af13099 (feat: quotes html/css)
 }
