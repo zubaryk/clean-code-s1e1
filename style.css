@@ -22,7 +22,7 @@ body {
   .aaa {
     text-align: center;
   }
-  
+
 }
 .centered-main-page-element {
   display: block;
@@ -139,7 +139,7 @@ button.delete img:hover {
 }
 .list li.edit-mode input[type="text"] {
   display: inline-block;
-  width:224px;
+  width: 224px;
 }
 .list li.edit-mode .subject {
   display: none;
