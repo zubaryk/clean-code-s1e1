@@ -10,10 +10,12 @@ body {
   display: block;
   text-align: right;
 }
-.aaa .image {
+.aaa,
+.image {
   width: 100%;
 }
-.aaa .more-inf {
+.aaa,
+.more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -61,9 +63,11 @@ ul {
 >>>>>>> af13099 (feat: quotes html/css)
   padding: 0px;
 }
-.item, .title {
+.item,
+.title {
   list-style: none;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 input, button {
@@ -76,6 +80,10 @@ input,  button {
 =======
 .content,  button {
 >>>>>>> 44af1ac (feat: tag selectors)
+=======
+.content, 
+button {
+>>>>>>> 764105c (feat:separation of selectors and properties)
   outline: none;
 >>>>>>> af13099 (feat: quotes html/css)
 }
@@ -96,6 +104,7 @@ button:hover {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 h3,
 label[for='new-task'] {
 =======
@@ -107,6 +116,10 @@ h3, label[for="new-task"] {
 =======
 .title, .subject[for="new-task"] {
 >>>>>>> 44af1ac (feat: tag selectors)
+=======
+.title, 
+.subject[for="new-task"] {
+>>>>>>> 764105c (feat:separation of selectors and properties)
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -160,17 +173,20 @@ li > .subject {
 li > .content[type="text"] {
   width: 226px;
 }
-button.delete img {
+button.delete
+img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+button.delete
+img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.list-completed, .subject {
+.list-completed,
+.subject {
   color: #888;
 }
 #completed-tasks {
@@ -179,6 +195,7 @@ button.delete img:hover {
 }
 
 /* Edit Task */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 ul li input[type=text] {
@@ -201,13 +218,21 @@ ul li input[type="text"] {
   display: none
 >>>>>>> af13099 (feat: quotes html/css)
 =======
+=======
+.list
+li
+input[type="text"] {
+>>>>>>> 764105c (feat:separation of selectors and properties)
   display: none;
 >>>>>>> 63eb8aa (feat: semicolon css)
 }
-.list li.edit-mode input[type="text"] {
+.list
+li.edit-mode
+input[type="text"] {
   display: inline-block;
   width: 224px;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 ul li .edit-mode label {
@@ -221,6 +246,11 @@ ul li.edit-mode label {
 =======
 .list li.edit-mode .subject {
 >>>>>>> 44af1ac (feat: tag selectors)
+=======
+.list
+li.edit-mode
+.subject {
+>>>>>>> 764105c (feat:separation of selectors and properties)
   display: none;
 >>>>>>> af13099 (feat: quotes html/css)
 }
