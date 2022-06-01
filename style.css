@@ -158,7 +158,7 @@ li > .subject {
   width: 226px;
 }
 li > .content[type="text"] {
-  width: 226px
+  width: 226px;
 }
 button.delete img {
   height: 2em;
@@ -196,9 +196,13 @@ ul li.editMode label {
 ul li input[type="text"] {
 =======
 .list li input[type="text"] {
+<<<<<<< HEAD
 >>>>>>> 44af1ac (feat: tag selectors)
   display: none
 >>>>>>> af13099 (feat: quotes html/css)
+=======
+  display: none;
+>>>>>>> 63eb8aa (feat: semicolon css)
 }
 .list li.edit-mode input[type="text"] {
   display: inline-block;
