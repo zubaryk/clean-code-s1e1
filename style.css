@@ -19,13 +19,18 @@ body {
 
 @media (max-width:768px) {
 <<<<<<< HEAD
+<<<<<<< HEAD
   .aaa 
     { text-align: center;
 =======
+=======
+
+>>>>>>> 0b19222 (feat: padding in blocks css)
   .aaa {
     text-align: center;
 >>>>>>> 99d4e22 (feat: changes)
   }
+  
 }
 .centered-main-page-element {
   display: block;
